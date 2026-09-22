@@ -19,4 +19,4 @@ jobs:
           python-version: "3.12"
 
       - name: Run Python script
-        run: airquality.py
+        run: python airquality.py
