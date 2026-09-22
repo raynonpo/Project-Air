@@ -3,3 +3,5 @@
 __pycache__/
 *.pyc
 .venv/
+hourly_air_quality.csv
+plan.txt
