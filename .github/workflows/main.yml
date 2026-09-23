@@ -25,3 +25,15 @@ jobs:
           
       - name: Run Python script
         run: python airquality.py
+      - name: Commit updated air quality data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -f hourly_air_quality.csv
+          if git diff --cached --quiet; then
+            echo "No changes to hourly_air_quality.csv"
+          else
+            git commit -m "Update hourly air quality data"
+            git push
+          fi
+
