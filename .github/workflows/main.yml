@@ -2,7 +2,9 @@ name: Run Python Script
 
 on:
   schedule:
-    - cron: "0 2 * * *"
+      # GitHub Actions cron uses UTC. Every 2 hours at minute 0,
+    # corresponding to every 2 hours on the hour in Malaysia (UTC+8).
+    - cron: "0 */2 * * *"
   workflow_dispatch:
 permissions:
   contents: write
