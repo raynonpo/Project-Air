@@ -9,7 +9,7 @@ from retry_requests import retry
 cache_session = requests_cache.CachedSession('.cache', expire_after = 3600)
 retry_session = retry(cache_session, retries = 5, backoff_factor = 0.2)
 openmeteo = openmeteo_requests.Client(session = retry_session)
-
+historical_data = pd.read_csv("hourly_air_quality.csv")
 # Make sure all required weather variables are listed here
 # The order of variables in hourly or daily is important to assign them correctly below
 url = "https://air-quality-api.open-meteo.com/v1/air-quality"
@@ -52,6 +52,19 @@ hourly_data["pm10"] = hourly_pm10
 hourly_data["pm2_5"] = hourly_pm2_5
 hourly_data["us_aqi"] = hourly_us_aqi
 
+
 hourly_dataframe = pd.DataFrame(data = hourly_data)
-hourly_dataframe.to_csv("hourly_air_quality.csv", index = False)
-print("\nHourly data\n", hourly_dataframe)
+df = pd.concat([historical_data, hourly_dataframe], ignore_index=True)
+df["date"] = pd.to_datetime(df["date"], utc=True)
+now = pd.Timestamp.now(tz="Asia/Kuala_Lumpur")
+current_hour = now.floor("h")
+df = df[df["date"] <= current_hour]
+future_data = df[df["date"] > current_hour]
+df = df.drop_duplicates(subset=["date"], keep="last")
+df["date"] = df["date"].dt.tz_convert("Asia/Kuala_Lumpur")
+df = df.sort_values("date").reset_index(drop=True)
+
+
+
+df.to_csv("hourly_air_quality.csv", index = False)
+print("\nCombined data\n", df)
