@@ -4,7 +4,7 @@ on:
   schedule:
       # GitHub Actions cron uses UTC. Every 2 hours at minute 0,
     # corresponding to every 2 hours on the hour in Malaysia (UTC+8).
-    - cron: "0 */2 * * *"
+    - cron: "0 * * * *"
   workflow_dispatch:
 permissions:
   contents: write
@@ -26,17 +26,25 @@ jobs:
           python -m pip install --upgrade pip
           python -m pip install -r requirements.txt
           
-      - name: Run Python script
+      - name: Run Air Quality Data
         run: python airquality.py
-      - name: Commit updated air quality data
+
+      - name: Run Weather Data
+        env:
+          weather_Data_API: ${{ secrets.weather_Data_API }}
+        run: python weatherdata.py
+      - name: Commit updated data
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
           git add -f hourly_air_quality.csv
+          git add -f hourly_Weather_data.csv
+
           if git diff --cached --quiet; then
-            echo "No changes to hourly_air_quality.csv"
+            echo "No changes to CSV files"
           else
-            git commit -m "Update hourly air quality data"
+            git commit -m "Update hourly air quality and weather data"
             git push
           fi
 
