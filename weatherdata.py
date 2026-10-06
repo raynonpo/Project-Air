@@ -1,7 +1,8 @@
 import pandas as pd
 import requests
+import os
 from retry_requests import retry
-apikey="5hs5io0ym1ryotpb1i5fao0nrlzcb16ui1aefsp5"
+apikey=os.getenv("weather_Data_API") 
 body={"place_id":"kuala-lumpur",
       "sections":"current,hourly",
 "language":"en",
