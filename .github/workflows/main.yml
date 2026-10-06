@@ -31,7 +31,7 @@ jobs:
 
       - name: Run Weather Data
         env:
-          weather_Data_API: ${{ secrets.weather_Data_API }}
+          WEATHER_DATA_API: ${{ secrets.WEATHER_DATA_API }}
         run: python weatherdata.py
       - name: Commit updated data
         run: |
