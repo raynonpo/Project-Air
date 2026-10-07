@@ -2,10 +2,12 @@ name: Run Python Script
 
 on:
   schedule:
-    - cron: "45 * * * *"
+    - cron: "0 * * * *"
   workflow_dispatch:
+
 permissions:
   contents: write
+
 jobs:
   run-python:
     runs-on: ubuntu-latest
@@ -18,12 +20,12 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-          
+
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
           python -m pip install -r requirements.txt
-          
+
       - name: Run Air Quality Data
         run: python airquality.py
 
@@ -31,6 +33,7 @@ jobs:
         env:
           WEATHER_DATA_API: ${{ secrets.WEATHER_DATA_API }}
         run: python weatherdata.py
+
       - name: Commit updated data
         run: |
           git config user.name "github-actions[bot]"
@@ -45,4 +48,3 @@ jobs:
             git commit -m "Update hourly air quality and weather data"
             git push
           fi
-
