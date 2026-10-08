@@ -14,3 +14,4 @@ date,weather,icon,summary,temperature,wind_speed,wind_dir,wind_angle,cloud_cover
 2026-10-07 22:00:00,partly_clear,28,Partly clear,25.8,0.5,N,354.0,22,0.0,none
 2026-10-08 03:00:00,mostly_cloudy,29,Mostly cloudy,24.5,0.9,NE,42.0,78,0.0,none
 2026-10-08 08:00:00,partly_sunny,4,Partly sunny,25.2,0.6,NE,37.0,55,0.0,none
+2026-10-08 09:00:00,partly_sunny,4,Partly sunny,27.0,0.2,W,268.0,45,0.0,none
