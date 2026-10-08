@@ -2,9 +2,9 @@ name: Run Python Script
 
 on:
   schedule:
-    - cron: "0 * * * *"
+    - cron: "15,30,45 * * * *"
   workflow_dispatch:
-  push:
+  
 
 permissions:
   contents: write
