@@ -32,3 +32,4 @@ date,weather,icon,summary,temperature,wind_speed,wind_dir,wind_angle,cloud_cover
 2026-10-12 00:00:00,overcast,7,Overcast,25.0,1.1,NE,55.0,97,0.0,none
 2026-10-12 05:00:00,mostly_cloudy,29,Mostly cloudy,24.2,1.0,NE,44.0,74,0.0,none
 2026-10-12 10:00:00,mostly_cloudy,5,Mostly cloudy,28.8,0.6,W,269.0,73,0.0,none
+2026-10-12 17:00:00,tstorm,14,Thunderstorm,26.5,1.3,WSW,250.0,100,0.8,rain
