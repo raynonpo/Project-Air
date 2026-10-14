@@ -37,3 +37,4 @@ date,weather,icon,summary,temperature,wind_speed,wind_dir,wind_angle,cloud_cover
 2026-10-13 10:00:00,overcast,7,Overcast,28.0,0.9,NE,45.0,100,0.0,none
 2026-10-13 17:00:00,light_rain,10,Light rain,29.2,0.7,SSW,197.0,98,0.3,rain
 2026-10-14 02:00:00,overcast,7,Overcast,24.8,1.3,NE,55.0,100,0.0,none
+2026-10-14 08:00:00,partly_sunny,4,Partly sunny,25.2,1.1,ENE,57.0,62,0.0,none
