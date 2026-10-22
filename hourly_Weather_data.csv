@@ -78,3 +78,4 @@ date,weather,icon,summary,temperature,wind_speed,wind_dir,wind_angle,cloud_cover
 2026-10-21 22:00:00,cloudy,30,Cloudy,26.0,0.4,NE,49.0,82,0.0,none
 2026-10-22 03:00:00,rain_shower,32,Rain shower,24.8,1.0,N,358.0,79,0.4,rain
 2026-10-22 07:00:00,fog,9,Fog,24.2,1.1,NE,52.0,73,0.0,none
+2026-10-22 10:00:00,overcast,7,Overcast,28.8,0.8,SE,124.0,91,0.0,none
