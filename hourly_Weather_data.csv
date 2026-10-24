@@ -92,3 +92,4 @@ date,weather,icon,summary,temperature,wind_speed,wind_dir,wind_angle,cloud_cover
 2026-10-24 15:00:00,tstorm,14,Thunderstorm,28.8,2.5,WNW,290.0,92,1.6,rain
 2026-10-24 20:00:00,overcast,7,Overcast,25.0,1.1,NW,310.0,100,0.0,none
 2026-10-25 01:00:00,overcast,7,Overcast,24.8,0.9,WNW,298.0,100,0.0,none
+2026-10-25 03:00:00,rain,11,Rain,24.0,1.2,W,280.0,100,4.2,rain
