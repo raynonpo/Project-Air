@@ -88,3 +88,4 @@ date,weather,icon,summary,temperature,wind_speed,wind_dir,wind_angle,cloud_cover
 2026-10-23 21:00:00,fog,9,Fog,25.8,0.8,NNE,33.0,100,0.0,none
 2026-10-24 02:00:00,overcast,7,Overcast,25.0,0.7,NNE,28.0,100,0.0,none
 2026-10-24 07:00:00,overcast,7,Overcast,24.2,0.3,NNE,33.0,99,0.0,none
+2026-10-24 10:00:00,overcast,7,Overcast,27.5,1.2,NW,306.0,94,0.0,none
