@@ -103,3 +103,4 @@ date,weather,icon,summary,temperature,wind_speed,wind_dir,wind_angle,cloud_cover
 2026-10-26 10:00:00,overcast,7,Overcast,24.2,0.8,WSW,248.0,100,0.0,none
 2026-10-26 16:00:00,overcast,7,Overcast,25.8,0.9,NNE,22.0,100,0.0,none
 2026-10-26 23:00:00,overcast,7,Overcast,24.5,0.1,SSW,212.0,100,0.0,none
+2026-10-27 05:00:00,cloudy,30,Cloudy,24.0,0.0,SE,127.0,83,0.0,none
