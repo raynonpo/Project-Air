@@ -116,3 +116,4 @@ date,weather,icon,summary,temperature,wind_speed,wind_dir,wind_angle,cloud_cover
 2026-10-29 19:00:00,rain,11,Rain,25.5,1.0,NW,314.0,100,0.7,rain
 2026-10-30 01:00:00,cloudy,30,Cloudy,23.8,0.9,ENE,77.0,88,0.0,none
 2026-10-30 06:00:00,fog,9,Fog,22.5,0.5,ENE,70.0,71,0.0,none
+2026-10-30 11:00:00,overcast,7,Overcast,25.5,0.7,SSW,207.0,99,0.0,none
