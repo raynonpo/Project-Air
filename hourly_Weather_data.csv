@@ -121,3 +121,4 @@ date,weather,icon,summary,temperature,wind_speed,wind_dir,wind_angle,cloud_cover
 2026-10-31 01:00:00,overcast,7,Overcast,24.8,0.9,NNE,32.0,100,0.0,none
 2026-10-31 05:00:00,partly_clear,28,Partly clear,23.8,1.0,NE,53.0,56,0.0,none
 2026-10-31 10:00:00,overcast,7,Overcast,28.2,1.0,ESE,120.0,97,0.0,none
+2026-10-31 17:00:00,overcast,7,Overcast,29.2,1.9,ESE,113.0,100,0.0,none
