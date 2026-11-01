@@ -128,3 +128,4 @@ date,weather,icon,summary,temperature,wind_speed,wind_dir,wind_angle,cloud_cover
 2026-11-01 10:00:00,partly_sunny,4,Partly sunny,29.2,0.4,SW,234.0,41,0.0,none
 2026-11-01 17:00:00,cloudy,6,Cloudy,30.0,2.2,NNE,31.0,88,0.0,none
 2026-11-02 01:00:00,rain,11,Rain,25.2,1.1,NE,51.0,84,4.3,rain
+2026-11-02 05:00:00,rain_shower,32,Rain shower,24.2,1.0,ENE,57.0,61,0.5,rain
