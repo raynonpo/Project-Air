@@ -135,3 +135,4 @@ date,weather,icon,summary,temperature,wind_speed,wind_dir,wind_angle,cloud_cover
 2026-11-03 10:00:00,mostly_cloudy,5,Mostly cloudy,28.5,0.5,NW,319.0,73,0.0,none
 2026-11-03 18:00:00,rain_shower,13,Rain shower,27.5,1.0,WSW,255.0,58,1.0,rain
 2026-11-04 02:00:00,tstorm,14,Thunderstorm,24.5,1.0,ENE,67.0,100,0.0,none
+2026-11-04 08:00:00,overcast,7,Overcast,24.8,1.1,NE,48.0,100,0.0,none
