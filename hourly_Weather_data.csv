@@ -137,3 +137,4 @@ date,weather,icon,summary,temperature,wind_speed,wind_dir,wind_angle,cloud_cover
 2026-11-04 02:00:00,tstorm,14,Thunderstorm,24.5,1.0,ENE,67.0,100,0.0,none
 2026-11-04 08:00:00,overcast,7,Overcast,24.8,1.1,NE,48.0,100,0.0,none
 2026-11-04 18:00:00,rain_shower,13,Rain shower,29.0,0.8,SSW,194.0,66,0.6,rain
+2026-11-05 02:00:00,cloudy,30,Cloudy,24.2,0.9,NE,53.0,84,0.0,none
