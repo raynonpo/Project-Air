@@ -162,3 +162,4 @@ date,weather,icon,summary,temperature,wind_speed,wind_dir,wind_angle,cloud_cover
 2026-11-11 21:00:00,rain,11,Rain,24.8,1.1,WSW,249.0,100,1.7,rain
 2026-11-12 05:00:00,mostly_cloudy,29,Mostly cloudy,23.8,0.9,NE,49.0,68,0.0,none
 2026-11-12 12:00:00,mostly_cloudy,5,Mostly cloudy,30.0,1.8,SW,230.0,75,0.0,none
+2026-11-12 22:00:00,overcast,7,Overcast,25.8,0.1,SSE,154.0,100,0.0,none
