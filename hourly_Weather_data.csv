@@ -178,3 +178,4 @@ date,weather,icon,summary,temperature,wind_speed,wind_dir,wind_angle,cloud_cover
 2026-11-17 05:00:00,fog,9,Fog,24.0,0.7,NE,43.0,91,0.0,none
 2026-11-17 13:00:00,tstorm,14,Thunderstorm,29.8,0.7,SW,234.0,97,0.9,rain
 2026-11-17 23:00:00,overcast,7,Overcast,25.0,0.3,ENE,66.0,97,0.0,none
+2026-11-18 08:00:00,cloudy,6,Cloudy,24.8,0.6,ENE,62.0,84,0.0,none
