@@ -186,3 +186,4 @@ date,weather,icon,summary,temperature,wind_speed,wind_dir,wind_angle,cloud_cover
 2026-11-20 03:00:00,rain,11,Rain,24.0,1.5,ENE,71.0,90,8.1,rain
 2026-11-20 09:00:00,mostly_cloudy,5,Mostly cloudy,26.2,1.1,ENE,61.0,67,0.0,none
 2026-11-20 18:00:00,overcast,7,Overcast,27.5,1.1,NE,47.0,100,0.0,none
+2026-11-21 03:00:00,overcast,7,Overcast,24.0,1.4,NE,52.0,95,0.0,none
